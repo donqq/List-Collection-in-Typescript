@@ -1,10 +1,10 @@
 ## List Collection Type for Typescript. 
-At the moment Typescript doesn't have a LIST<T> collection. This library helps developers to use LIST<T> collection in their application. 
+At the moment Typescript doesn't have a LIST&lt;T&gt; collection. This library helps developers to use LIST&lt;T&gt; collection in their application. 
   
 ## Documentation
 
 ### Construction
-public List<T>() = Initialize a new instance of List class with T type. 
+public List&lt;T&gt;() = Initialize a new instance of List class with T type. 
 
 ### Methods
 - public add(value: T) = Add a T type value to the instance
@@ -13,4 +13,4 @@ public List<T>() = Initialize a new instance of List class with T type.
 
 ### Properties
 - public get size(): number = Retrieve the length of the instance
-- public get values(): Array<T> = Retrieve the instance itself.
+- public get values(): Array&lt;T&gt; = Retrieve the instance itself.
